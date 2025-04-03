@@ -1,0 +1,14 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Terraform provider dir
+.terraform/
+
+# Terraform variable override files
+*.tfvars
+
+# IDE / sistema
+.DS_Store
+*.log
+*.swp
