@@ -18,3 +18,49 @@ cloud-security-portfolio/
 ├── terraform-vpc/           # Proyecto 1: VPC segura en AWS con Terraform
 ├── aws-python-security/     # Proyecto 2: Automatización con Python + Boto3
 └── README.md                # Este archivo (descripción general del portafolio)
+
+##🚀 Proyectos incluidos
+🧱 terraform-vpc/
+Infraestructura como código para crear una red segura en AWS con:
+
+Subnet pública
+
+Internet Gateway
+
+Security Group con acceso restringido
+
+EC2 t2.micro
+
+Buenas prácticas de versionado y organización
+
+
+##🐍 aws-python-security/
+Scripts en Python con Boto3 para automatizar tareas y auditorías en AWS:
+
+Auditoría de instancias EC2 activas
+
+[Próximamente] Revisión de buckets públicos en S3
+
+##🎯 Objetivo
+Mi meta es estar listo para aplicar a roles como:
+
+Cloud Security Engineer Jr.
+
+DevOps con enfoque en seguridad
+
+Especialista en automatización cloud
+
+
+##📌 ¿Por qué este portafolio?
+Todo lo que ves aquí está hecho desde cero por mí
+
+Cada avance está documentado, probado y versionado
+
+Combino seguridad, infraestructura y automatización como base sólida para roles en la nube
+
+
+
+##📫 Contacto
+GitHub: NICKPDRZ
+
+Email: nickpdrz@gmail.coom
