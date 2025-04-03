@@ -75,7 +75,7 @@ Cada avance está documentado, probado y versionado
 
 Combino seguridad, infraestructura y automatización como base sólida para roles en la nube
 
-### 📫 Contacto
+## 📫 Contacto
 GitHub: NICKPDRZ
 
 Email: nickpdrz@gmail.com
