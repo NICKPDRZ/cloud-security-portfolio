@@ -19,7 +19,8 @@ cloud-security-portfolio/
 ├── aws-python-security/     # Proyecto 2: Automatización con Python + Boto3
 └── README.md                # Este archivo (descripción general del portafolio)
 
-##🚀 Proyectos incluidos
+
+# 🚀 Proyectos incluidos
 🧱 terraform-vpc/
 Infraestructura como código para crear una red segura en AWS con:
 
@@ -41,7 +42,7 @@ Auditoría de instancias EC2 activas
 
 [Próximamente] Revisión de buckets públicos en S3
 
-##🎯 Objetivo
+## 🎯 Objetivo
 Mi meta es estar listo para aplicar a roles como:
 
 Cloud Security Engineer Jr.
@@ -62,5 +63,3 @@ Combino seguridad, infraestructura y automatización como base sólida para role
 
 ##📫 Contacto
 GitHub: NICKPDRZ
-
-Email: nickpdrz@gmail.coom
