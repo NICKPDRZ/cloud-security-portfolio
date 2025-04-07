@@ -1,3 +1,4 @@
+-------------
 ### 🖥️ list_ec2_instances.py
 
 Este script lista todas las instancias EC2 activas en la cuenta actual de AWS, incluyendo información como:
@@ -14,7 +15,9 @@ Este script lista todas las instancias EC2 activas en la cuenta actual de AWS, i
 
 ```bash
 python list_ec2_instances.py
+```
 
+------------
 
 
 
@@ -28,3 +31,4 @@ Este script revisa si algún bucket S3 tiene configuraciones públicas (acceso s
 
 ```bash
 python check_s3_public.py
+```
