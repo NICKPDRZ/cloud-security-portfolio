@@ -46,3 +46,18 @@ Este tipo de detecciones son clave como parte del rol de Cloud Security Engineer
 ---
 
 🧹 El bucket fue eliminado después de la prueba.
+
+
+----
+
+### 🔐 check_iam_mfa.py
+
+Este script revisa todos los usuarios IAM en la cuenta actual y detecta si tienen habilitada la autenticación multifactor (MFA).
+
+✅ Lista usuarios  
+✅ Detecta ausencia de MFA  
+✅ Muestra alerta si falta configurar seguridad
+
+```bash
+python check_iam_mfa.py
+```
