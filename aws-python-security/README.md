@@ -77,6 +77,18 @@ Este script realiza una auditoría básica de seguridad en tu cuenta de AWS, aut
 
 ```bash
 python check_aws_security.py
+```
 
+--------------
+---
 
+### 🔐 block_public_s3.py
+
+Este script revisa todos los buckets S3 y, si detecta alguno que esté configurado como público mediante ACL, automáticamente configura el bloque de acceso público para asegurar el bucket.
+
+#### ▶️ Ejecución
+
+```bash
+python block_public_s3.py
+```
 
