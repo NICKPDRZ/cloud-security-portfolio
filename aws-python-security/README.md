@@ -61,3 +61,22 @@ Este script revisa todos los usuarios IAM en la cuenta actual y detecta si tiene
 ```bash
 python check_iam_mfa.py
 ```
+
+---
+
+### 🛡️ check_aws_security.py
+
+Este script realiza una auditoría básica de seguridad en tu cuenta de AWS, automatizando las siguientes verificaciones:
+
+- 🖥️ **EC2**: Lista todas las instancias activas
+- 📦 **S3**: Detecta buckets con permisos públicos
+- 👤 **IAM**: Identifica usuarios que no tienen MFA habilitado
+
+#### ▶️ Ejecución
+![image](https://github.com/user-attachments/assets/d4229fd0-1cac-4747-a6e9-969d51189b1d)
+
+```bash
+python check_aws_security.py
+
+
+
