@@ -87,6 +87,7 @@ python check_aws_security.py
 Este script revisa todos los buckets S3 y, si detecta alguno que esté configurado como público mediante ACL, automáticamente configura el bloque de acceso público para asegurar el bucket.
 
 #### ▶️ Ejecución
+![image](https://github.com/user-attachments/assets/815c770e-d6ce-4d92-8740-825dc6d14957)
 
 ```bash
 python block_public_s3.py
