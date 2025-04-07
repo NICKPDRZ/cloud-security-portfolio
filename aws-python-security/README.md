@@ -32,3 +32,17 @@ Este script revisa si algún bucket S3 tiene configuraciones públicas (acceso s
 ```bash
 python check_s3_public.py
 ```
+## ✅ Prueba ofensiva: detección de bucket S3 público
+
+Como parte del aprendizaje práctico, se creó un bucket en AWS con ACL pública (`AllUsers: READ`) para verificar si el script `check_s3_public.py` podía detectarlo.
+
+📌 Resultado: el script identificó correctamente el bucket como **público**, lo que demuestra que la lógica implementada funciona para auditorías de seguridad real en S3.
+
+Este tipo de detecciones son clave como parte del rol de Cloud Security Engineer.
+
+
+![image](https://github.com/user-attachments/assets/2ea6dc22-d1fa-47ed-bfa7-667770b8246e)
+
+---
+
+🧹 El bucket fue eliminado después de la prueba.
