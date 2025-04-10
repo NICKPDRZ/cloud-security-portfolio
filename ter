@@ -1,0 +1,102 @@
+[33mcommit fcc0e3089c4aae44a79350f09f8d721b8d78392e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 13:11:20 2025 -0300
+
+    Update README.md
+
+[33mcommit b041375d2657396f8d3fc6d13b2716265c89590b[m
+Merge: fd78d2d 1df0238
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 13:10:19 2025 -0300
+
+    organizar
+
+[33mcommit fd78d2d49ae981ec2bd5b53d49865956dfd98ca8[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 13:08:54 2025 -0300
+
+    organizar
+
+[33mcommit ed2189bda83688edd50d6c733e2195b7c103b90d[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 13:07:17 2025 -0300
+
+    organizar portada
+
+[33mcommit 1df023808f367a4bc05e8afb65244327647e53b9[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 13:02:51 2025 -0300
+
+    Update README.md
+
+[33mcommit d7b2e9f72f52fd3e00164eb6af5f0d91b7aec507[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:58:27 2025 -0300
+
+    Update README.md
+
+[33mcommit d5857016449a86034e15a252ce015871c1f50dd3[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:57:15 2025 -0300
+
+    Update README.md
+
+[33mcommit 9184ddae60eeeaa3676d4c9e36bfa9c30b91bb68[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:55:16 2025 -0300
+
+    Update README.md
+
+[33mcommit 495d4d641449e6da23ae73bb38f9bf310d6cb13f[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:38:54 2025 -0300
+
+    organizar portada
+
+[33mcommit 135cc81cc78e036f025f096b63602e76e91c7f69[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:37:37 2025 -0300
+
+    Reorganiza estructura: README a subcarpeta y limpieza .gitignore
+
+[33mcommit 9a6dbb0d0d1bbd4d0383e855ef4a716d4ab2732c[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:32:38 2025 -0300
+
+    Organiza carpetas y prepara para sincronizar con GitHub
+
+[33mcommit 83d1eaceb3c32ee2eca9f29d8dd1b4d0b328fce5[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:19:33 2025 -0300
+
+    Delete VPC segura en AWS con Terraform
+
+[33mcommit c6aab57e884dc637eff265046d17529a72d2263c[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:18:42 2025 -0300
+
+    Create VPC segura en AWS con Terraform
+
+[33mcommit f469eff50882f071b107ef31d4c1f2a456829242[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:08:10 2025 -0300
+
+    Delete aws-python-security directory
+
+[33mcommit 7ee65ebf6a44afac4f660ff4fc0bf4974db8dc95[m
+Author: Nicolas Pedroza <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Thu Apr 3 12:06:21 2025 -0300
+
+    Create list_ec2_instances.py
+
+[33mcommit d0027ce4a93867ba6dc5999dc21198e744547e17[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Wed Apr 2 16:40:36 2025 -0300
+
+    Create README.md
+
+[33mcommit c44cc6f27b7afce9c14a8632969907ba3ddfc5ac[m
+Author: NICKPDRZ <75203379+NICKPDRZ@users.noreply.github.com>
+Date:   Wed Apr 2 16:32:19 2025 -0300
+
+    Primer commit limpio: VPC segura con Terraform
