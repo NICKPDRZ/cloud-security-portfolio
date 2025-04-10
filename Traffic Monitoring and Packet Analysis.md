@@ -1,4 +1,6 @@
 ## 🛰️ AWS Traffic Mirroring y Análisis de Paquetes
+![image](https://github.com/user-attachments/assets/33900146-5de8-45a8-9cc5-74c432c3e406)
+
 
 Este proyecto documenta el laboratorio "AWS Security Traffic Monitoring and Packet Analysis" realizado en AWS Skill Builder. El objetivo fue aprender a capturar, redirigir y analizar el tráfico de red en instancias EC2 usando Traffic Mirroring.
 
@@ -79,8 +81,10 @@ Este enfoque permite replicar funcionalidades típicas de un NIDS (Network Intru
 Captura de comandos tcpdump
 
 Capturas de pantalla del entorno y validaciones
+![image](https://github.com/user-attachments/assets/b3efda82-4a5e-4fa8-9d58-d79b58b7c2c9)
 
-Diagrama de arquitectura (pendiente)
+![image](https://github.com/user-attachments/assets/83291fbb-9489-497b-8d59-70a9d224f766)
+
 
 ## 💡 Lecciones aprendidas
 
@@ -90,5 +94,4 @@ Las ENIs son elementos críticos en la red de AWS
 
 Traffic Mirroring es ideal para detección de amenazas, forense, IDS/IPS
 
-Puedo automatizar esta configuración más adelante con Terraform
 
