@@ -39,6 +39,10 @@ Este análisis también puede realizarse desde la CLI:
  aws accessanalyzer validate-policy \
   --policy-document file://policy-insegura.json \
   --policy-type IDENTITY_POLICY
+```
+📌 Se modifico un poco el archivo para que lea todos las policis de donde se ejecute el file y queda esto:
+
+![image](https://github.com/user-attachments/assets/735c1fcf-5b2e-46ca-939d-563df7e8aa49)
 
 
 
