@@ -28,7 +28,9 @@ Este mini-lab muestra cómo validar una política IAM usando la API `ValidatePol
    ```bash
    pip install boto3
 2. Asegúrate de tener Python y `boto3` instalados:
-    aws configure
+    ```bash
+ aws configure
+'''
 3. Ejecuta el script:
     python validate_policy.py
 
