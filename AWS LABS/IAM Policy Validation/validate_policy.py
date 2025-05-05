@@ -1,22 +1,40 @@
 import boto3
 import json
+import os
 
-# Cliente para Access Analyzer
+# Cliente de Access Analyzer
 client = boto3.client('accessanalyzer')
 
-# Cargar el contenido de la política desde el archivo
-with open('bad_policy.json') as f:
-    policy = json.load(f)
+# Listar todos los archivos JSON en la carpeta actual
+policy_files = [f for f in os.listdir() if f.endswith('.json')]
 
-# Validar la política
-response = client.validate_policy(
-    policyDocument=json.dumps(policy),
-    policyType='IDENTITY_POLICY'
+if not policy_files:
+    print("❌ No se encontraron archivos .json en esta carpeta.")
+    exit()
+
+for file_name in policy_files:
+    print(f"\n🔍 Analizando: {file_name}")
+
+    try:
+        with open(file_name, 'r') as f:
+            policy = json.load(f)
+
+        response = client.validate_policy(
+    policyType='IDENTITY_POLICY',
+    policyDocument=json.dumps(policy)
 )
 
-# Mostrar los resultados
-print("Findings:")
-for finding in response['findings']:
-    print(f"- {finding['findingType']}: {finding['findingDetails']}")
-print("Policy is valid.")
-# Si la política no es válida, se lanzará una excepción y no se mostrará el mensaje de "Policy is valid."   
+
+        findings = response.get('findings', [])
+
+        if not findings:
+            print("✅ La política es válida.")
+        else:
+            for finding in findings:
+                tipo = finding.get('findingType')
+                detalle = finding.get('findingDetails')
+                codigo = finding.get('issueCode')
+                print(f"⚠️ [{tipo}] {codigo}: {detalle}")
+
+    except Exception as e:
+        print(f"❌ Error analizando {file_name}: {e}")
