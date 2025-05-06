@@ -46,3 +46,22 @@ Este análisis también puede realizarse desde la CLI:
 
 
 
+## 🔐 Access Analyzer – APIs y Herramientas Usadas
+Este módulo contiene prácticas enfocadas en validar políticas IAM, Resource Policies y SCPs usando herramientas oficiales de AWS.
+| Comando/API                    | Tipo        | Función Principal                                                                    |
+| ------------------------------ | ----------- | ------------------------------------------------------------------------------------ |
+| `validate-policy`              | CLI/API     | Valida políticas IAM, Resource Policies y SCP, detectando errores o malas prácticas. |
+| `create-analyzer`              | CLI/API     | Crea un "Analyzer" que revisa continuamente configuraciones de acceso externo.       |
+| `create-access-preview`        | CLI/API     | Simula el impacto de aplicar una política a un recurso antes de hacerlo realmente.   |
+| `get-access-preview`           | CLI/API     | Consulta el estado de una simulación de política (`Access Preview`).                 |
+| `list-access-preview-findings` | CLI/API     | Muestra hallazgos detallados de la simulación (`quién tendría acceso y por qué`).    |
+| `cfn-policy-validator`         | Herramienta | Valida políticas definidas dentro de plantillas CloudFormation (`.json` o `.yaml`).  |
+
+# 🧪 Scripts utilizados
+`validate_policy.py` : valida 1 política IAM desde Python
+
+`validate_all_policies.py`: valida múltiples .json en una carpeta
+
+`validate-identity-policy.sh, validate-resource-policy.sh, validate-scp.sh`: validaciones por tipo
+
+`validate-all-policies.sh`: script unificado que detecta y analiza todos los .json automáticamente
