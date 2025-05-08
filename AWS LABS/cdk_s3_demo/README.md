@@ -23,7 +23,7 @@ cdk-s3-demo/
 ├── README.md
 ├── app.py                   # Punto de entrada del CDK
 └── cdk.out/                 # Archivos generados por CDK (ignorar)
-
+```
 ## ⚙️ Pasos para ejecutar
 
 # Instalar dependencias
